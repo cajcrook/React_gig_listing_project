@@ -19,3 +19,33 @@ body {
   font-size: 3.2em;
   line-height: 1.1;
 } */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.band_name {
+  font-size: 4em;
+  line-height: 1em;
+  color: rgb(224, 99, 50);
+}
+
+.event_description {
+  font-size: 4em;
+  line-height: 0.5em;
+  color: rgb(113, 113, 113);
+}
+
+.time_date {
+  font-size: 2em;
+  line-height: 0.5em;
+}
+
+.location {
+  font-size: 2em;
+  line-height: 0.5em;
+} 
+

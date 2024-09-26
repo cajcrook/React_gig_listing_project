@@ -3,8 +3,6 @@ import bandImage from "./assets/bandImage.jpg";
 import "./App.css";
 import InputLogger from "./components/InputLogger";
 
-
-
 function App() {
   return (
     <>
@@ -16,8 +14,8 @@ function App() {
       location="Bandeville, Rubberton"
      />
      <Gig 
-      event_description="2nd Big Band"
-      time_date="5 past Band"
+      event_description="Bigger Band"
+      time_date="Quarter past Band"
       location="Bandmouth, Rubbershire"
      />  
      <InputLogger />
