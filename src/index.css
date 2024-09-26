@@ -1,51 +1,46 @@
 :root {
   font-family: system-ui, Helvetica, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  line-height: 0;
+  font-weight: 350;
 
   color: rgb(50, 120, 224);
   background-color: #ffffff;
 }
 
 body {
-  margin: 0;
+  margin: 100;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
 
-/* h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-} */
-
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0rem;
   text-align: center;
 }
 
 .band_name {
-  font-size: 4em;
+  font-size: 3em;
   line-height: 1em;
   color: rgb(224, 99, 50);
 }
 
 .event_description {
-  font-size: 4em;
+  font-size: 2em;
   line-height: 0.5em;
   color: rgb(113, 113, 113);
 }
 
 .time_date {
-  font-size: 2em;
+  font-size: 1em;
   line-height: 0.5em;
 }
 
 .location {
-  font-size: 2em;
+  font-size: 1em;
   line-height: 0.5em;
 } 
 
